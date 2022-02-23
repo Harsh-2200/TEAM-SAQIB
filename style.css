@@ -1,9 +1,8 @@
-/*===== GOOGLE FONTS =====*/
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
 
 
-/*===== VARIABLES CSS =====*/
 
 
 @media screen and (min-width: 768px){
@@ -74,7 +73,6 @@ img{
     background-color:  #5361FF;
 }
 
-/*===== LAYOUT =====*/
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -93,7 +91,6 @@ img{
     background-color:  grey;
 }
 
-/*===== NAV =====*/
 .nav{
     height: 3rem;
     display: flex;
@@ -136,12 +133,10 @@ img{
     cursor: pointer;
 }
 
-/*=== Show menu ===*/
 .show{
     right: 0;
 }
 
-/*Active menu*/
 .active::after{
     position: absolute;
     content: "";
@@ -152,7 +147,6 @@ img{
     background-color:  #5361FF;
 }
 
-/*===== HOME =====*/
 .home{
     position: relative;
     background-color:  #5361FF;
@@ -240,22 +234,21 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== PORTFOLIO =====*/
-.portfolio{
+.food{
     background-color:  #FAFAFF;
 }
-.portfolio__container{
+.food__container{
     justify-items: center;
     row-gap: 2rem;
 }
-.portfolio__img{
+.food__img{
     position: relative;
     overflow: hidden;
 }
-.portfolio__img img{
+.food__img img{
     border-radius: .5rem;
 }
-.portfolio__link{
+.food__link{
     position: absolute;
     bottom: -100%;
     width: 100%;
@@ -269,14 +262,13 @@ img{
     backdrop-filter: blur(10px);
     transition: .3s;
 }
-.portfolio__img:hover .portfolio__link{
+.food__img:hover .portfolio__link{
     bottom: 0;
 }
-.portfolio__link-name{
+.food__link-name{
     color: #2A3B47;
 }
 
-/* ===== CONTACT =====*/
 .contact__container{
     row-gap: 2rem;
 }
